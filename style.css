@@ -1,0 +1,48 @@
+body{
+    margin: 0 ;
+    padding: 0;    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.paper{
+     border: 3px black solid;
+     width: 100vh;
+     display: flex;
+     height: 100vh; 
+     text-align: left;
+     flex-direction: column; 
+     padding-left: 10px;
+     padding-right: 5px;
+    
+    
+    
+}
+.paper .ruler{
+    border-bottom: 0.2vw black solid ;
+}
+.paper h4{
+    color: salmon   ;
+    margin: 0;
+    background-color: rgb(24, 26, 24);
+
+}
+.paper h5{
+    color: aquamarine;
+    background-color: rgb(34, 33, 33);
+    text-decoration: none;
+    margin: 0;
+    margin-top: 2px;
+    width: 50%;
+}
+.paper p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
